@@ -1,0 +1,611 @@
+                @font-face {
+                    font-family: ;
+                    src: url(../font/HindMadurai-Bold.ttf);
+                }
+                
+                .container {
+                    margin: 0 auto;
+                    max-width: 1600px;
+                }
+                
+                .navbar {
+                    width: 1125px;
+                    height: 79px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 auto;
+                    align-items: center;
+                   
+                }
+                
+                .navbar ul {
+                    display: flex;
+                    column-gap: 40px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    list-style: none;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: #150101;
+
+                }
+                a:hover{
+                    color: #bb174e;
+                }
+                
+                .qizil {
+                    color: #D23166;
+                    font-weight: 700
+                }
+                
+                .btn2 {
+                    background-color: #D23166;
+                    width: 165px;
+                    height: 49px;
+                    border: none;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 16px;
+                    transition: 0.5s;
+                }
+                button:hover{
+                    background-color: #F8EDF0;
+                    color: #D23166;
+                    border: 1px solid #D23166;
+                    transition: 0.2s;
+                }
+                
+                .backcolor {
+                    width: 100%;
+                    height: 864px;
+                    background-color: #F2CEDA;
+                }
+                
+                .titile {}
+                
+                .header_box {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                }
+                
+                .backimgs {
+                    background-image: url(../img/bg-image.svg);
+                    width: 894px;
+                    height: 742px;
+                    position: absolute;
+                    left: 600px;
+                    top: 100px;
+                }
+                
+                .bactitile {
+                    color: #0F0101;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 16.41px;
+                }
+                
+                .bigtitile {
+                    font-size: 57.33px;
+                    font-weight: 400px;
+                    line-height: 69.08px;
+                    font-weight: 400;
+                    color: #0F0101;
+                }
+                
+                .ice {
+                    color: #D23166;
+                }
+                
+                .titile {
+                    position: absolute;
+                    width: 665px;
+                    height: 364px;
+                    top: 200px;
+                    left: 237px;
+                }
+                
+                .Some {
+                    color: #0F0101;
+                    font-weight: 400;
+                    font-Size: 18px;
+                    line-height: 27px;
+                }
+                
+                .maindiv {
+                    text-align: center;
+                }
+                
+                .maindiv {
+                    width: 250px;
+                    height: 200px;
+                    background-color: #FFFFFF;
+                    padding: 35px 28px 26px 26px;
+                    margin: 0 auto;
+                    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+                    border-radius: 7px;
+                }
+                
+                .bigdiv {
+                    display: flex;
+                    margin-left: 200px;
+                    margin-top: 26px;
+                    column-gap: 39px;
+                    width: 1110px;
+                    height: 200px;
+                }
+                
+                .Main_title {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                }
+                
+                .smaltitle {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 19.32px;
+                }
+                
+                .maindiv1 {
+                    width: 250px;
+                    height: 200px;
+                    background-color: #FFFFFF;
+                    padding: 35px 28px 26px 26px;
+                    margin: 0 auto;
+                    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+                    text-align: center;
+                }
+                
+                .backcolor2 {
+                    width: 100%;
+                    height: 544.5px;
+                    background-color: #F8EDF0;
+                    margin-top: 100px;
+                }
+                
+                .sectionbox {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 1600px;
+                    height: 544px;
+                    margin: 0 auto;
+                    position: relative;
+                }
+                
+                .sectionimg img {
+                    width: 655px;
+                    height: 656px;
+                    position: absolute;
+                    top: -50px;
+                    bottom: 100px;
+                    right: 177px;
+                }
+                
+                .sectiontitle {
+                    margin: 0 auto;
+                    position: absolute;
+                    right: 950px;
+                }
+                
+                .sectiontitle h2 {
+                    font-weight: 600;
+                    font-size: 44.2px;
+                    line-height: 48.84px;
+                }
+                
+                .Together {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                
+                .btn,
+                .btn3 {
+                    background-color: #D23166;
+                    width: 165px;
+                    height: 49px;
+                    border: none;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 16px;
+                    margin-top: 35px;
+                }
+                
+                .asidnav {
+                    Width: 1596px;
+                    Height: 2346px;
+                    margin: 0 auto;
+                    margin-top: 97px;
+                    position: relative;
+                }
+                
+                .productname {
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 44.2px;
+                    line-height: 61px;
+                }
+                
+                .prodactnavbar ul {
+                    display: flex;
+                    justify-content: center;
+                    column-gap: 55px;
+                    list-style: none;
+                    color: #857a7a;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                
+                .prodactnavbar a:hover {
+                    font-weight: 900;
+                    font-size: 18px;
+                    border: 5px solid #D64374;
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    transition: 0.2s;
+                    color: #000;
+                }
+                
+                .Ice :hover {
+                    background-color: #D23166;
+                }
+                
+                .prodactnavbar a {
+                    color: rgb(91, 86, 86);
+                    font-weight: 500;
+                }
+                
+                .bodomli {
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 35px;
+                }
+                
+                .Brow {
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 35.88px;
+                }
+                
+                .main_titile p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #524d4d;
+                }
+                
+                .narx {
+                    color: #000;
+                    font-weight: 500;
+                    font-size: 26px;
+                    Line-height: 35.88px;
+                }
+                
+                strike {
+                    font-weight: 500;
+                    font-size: 20px;
+                    Line-height: 27.6px;
+                    color: #524d4d;
+                }
+                
+                .Limonli {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    text-align: right;
+                    justify-content: space-evenly;
+                    margin-top: 122px;
+                }
+                
+                .acount {
+                    display: flex;
+                    column-gap: 21px;
+                    align-items: center;
+                    margin-left: 150px;
+                    position: absolute;
+                    right: 1089px;
+                    top: 100px;
+                }
+                
+                .acountname {
+                    margin-top: 15px;
+                }
+                
+                .acountwrap {
+                    column-gap: 21px;
+                    align-items: flex-start;
+                    margin-left: 155px;
+                    justify-content: flex-start;
+                    position: absolute;
+                    top: 200px;
+                    right: 999px;
+                }
+                
+                .tutuq {
+                    display: flex;
+                    align-items: flex-end;
+                    margin-left: 240px;
+                }
+                
+                .tutuq2 {
+                    display: flex;
+                    margin-left: -10px;
+                }
+                
+                .acount_titile {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                
+                .wrapper {
+                    display: flex;
+                    justify-content: space-evenly;
+                    position: relative;
+                }
+                
+                .Man {
+                    width: 35px;
+                    height: 35px;
+                }
+                
+                .acounts {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 26px;
+                }
+                
+                .moroj {
+                    position: absolute;
+                    left: 820px;
+                }
+                
+                .backcolor3 {
+                    width: 100%;
+                    height: 650px;
+                    background-color: #F8EDF0;
+                    margin-top: 100px;
+                }
+                
+                .container_box {
+                    display: flex;
+                    justify-content: center;
+                    column-gap: 134px;
+                    margin-top: -300px;
+                    padding-top: 59px;
+                }
+                
+                .iconcontainer {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-left: 550px;
+                    margin-top: -120px;
+                }
+                
+                .iconwrap {
+                    margin-top: 90px;
+                    position: relative;
+                    margin: 0 auto;
+                    width: 1600px;
+                }
+                
+                .wrappercha {
+                    margin-top: -330px;
+                    margin-left: 137px;
+                }
+                
+                .icon_titile {
+                    font-weight: 500;
+                    font-size: 44.2px;
+                    line-height: 51.8px;
+                }
+                
+                .paragrphicon {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21.09px;
+                }
+                
+                .iconcontainer2 {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 670px;
+                    margin-top: 60px;
+                }
+                
+                .containerimg img {
+                    width: 305px;
+                    height: 627px;
+                }
+                
+                .containerimg {
+                    margin-left: 250px;
+                    padding-top: 10px;
+                }
+                
+                .bigtitile2 {
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 44px;
+                    line-height: 51.56px;
+                    margin-left: 60px;
+                }
+                
+                .inpuutdiv input {
+                    margin-left: 600px;
+                    ;
+                    height: 74px;
+                }
+                
+                select {
+                    margin-left: 20px;
+                    ;
+                    width: 303px;
+                    height: 74px;
+                    border: 1px solid #FFA3A3;
+                    border-radius: 5px;
+                    padding: 0 10px;
+                }
+                
+                .inpuutdiv {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 37px;
+                }
+                
+                input {
+                    border: 1px solid #FFA3A3;
+                    border-radius: 5px;
+                    padding: 0 10px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    Line-height: 16.41px;
+                }
+                
+                . .inp input {
+                    margin: 0 auto;
+                }
+                
+                .quesin {
+                    margin-left: 600px;
+                    margin-top: 20px;
+                    ;
+                    width: 320px;
+                    height: 74px;
+                    border-right: none;
+                }
+                
+                .btn4 {
+                    background-color: #D23166;
+                    width: 165px;
+                    height: 75px;
+                    border: none;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 16px;
+                    margin-top: 35px;
+                }
+                
+                .ruxsat_titile {
+                    margin-top: 144px;
+                    Width: 1600px;
+                    Height: 565px;
+                }
+                
+                option {
+                    background-color: #ffffff;
+                    color: #D64374;
+                }
+                
+                footer {
+                    background-color: #0A0808;
+                    height: 381px;
+                    padding-top: 60px;
+                    margin-top: 40px;
+                }
+                
+                .bigtitilefoot {
+                    display: flex;
+                    padding-top: 20px;
+                }
+                
+                .foottitile p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16.76px;
+                    color: #FFFFFF;
+                    padding-bottom: 20px;
+                }
+                
+                .foottitile span {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14.06px;
+                    color: #FFFFFF;
+                }
+                
+                .list1-img {
+                    display: flex;
+                    column-gap: 5px;
+                    padding-top: 20px;
+                }
+                
+                .bigtitilefoot li {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    list-style: none;
+                }
+                
+                .list1 {
+                    padding-left: 100px;
+                }
+                
+                .list2 {
+                    padding-left: 150px;
+                }
+                
+                .foot_end {
+                    padding-left: 200px;
+                }
+                
+                .foot_end p {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 18.75px;
+                    color: #ffffff;
+                    padding-bottom: 20px;
+                }
+                
+                .foot_end input {
+                    Width: 388px;
+                    Height: 55px;
+                    padding: 15px 5px;
+                    border: 1px solid #D23166;
+                    border-radius: 5px;
+                    background-color: #0A0808;
+                    color: #ffffff;
+                    border-right: none;
+                }
+                
+                .input_label {
+                    display: flex;
+                    padding-bottom: 20px;
+                }
+                
+                .input_label button {
+                    Width: 155px;
+                    Height: 85px;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: #D23166;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #fafafa;
+                    font-family: 'Hind Madurai', sans-serif;
+                }
+                
+                .footercard {
+                    display: flex;
+                    column-gap: 5px;
+                    align-items: center;
+                }
+                
+                .foot_end {
+                    margin-top: -70px;
+                }
+                
+                .fotterwraps {
+                    margin-left: 190px;
+                }
